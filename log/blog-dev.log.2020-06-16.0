@@ -1,0 +1,1110 @@
+2020-06-16 08:37:20.995  INFO 655 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 655 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 08:37:20.999  INFO 655 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 08:37:21.030  INFO 655 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 08:37:21.030  INFO 655 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 08:37:21.649  INFO 655 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 08:37:21.734  INFO 655 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 4 repository interfaces.
+2020-06-16 08:37:22.062  INFO 655 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fec4fe7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:37:22.564  INFO 655 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 08:37:22.587  INFO 655 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 08:37:22.587  INFO 655 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 08:37:22.716  INFO 655 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 08:37:22.717  INFO 655 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1687 ms
+2020-06-16 08:37:22.897  INFO 655 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 08:37:22.898  WARN 655 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 08:37:23.261  INFO 655 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 08:37:23.327  INFO 655 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 08:37:23.403  INFO 655 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 08:37:23.404  INFO 655 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 08:37:23.540  INFO 655 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 08:37:23.705  INFO 655 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 08:37:24.618  INFO 655 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 08:37:24.680  INFO 655 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 08:37:25.048  INFO 655 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 08:37:25.880  INFO 655 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 08:37:25.942  WARN 655 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 08:37:26.093  INFO 655 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 08:37:26.306  INFO 655 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 08:37:26.310  INFO 655 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.739 seconds (JVM running for 6.613)
+2020-06-16 08:45:23.023  INFO 655 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 08:45:23.024  INFO 655 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 08:45:23.029  INFO 655 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 08:45:23.035  INFO 655 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 08:45:25.937  INFO 875 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 875 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 08:45:25.940  INFO 875 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 08:45:26.022  INFO 875 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 08:45:26.022  INFO 875 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 08:45:26.518  INFO 875 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 08:45:26.588  INFO 875 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 4 repository interfaces.
+2020-06-16 08:45:26.910  INFO 875 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e457a1e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 08:45:27.387  INFO 875 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 08:45:27.407  INFO 875 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 08:45:27.407  INFO 875 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 08:45:27.524  INFO 875 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 08:45:27.524  INFO 875 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1502 ms
+2020-06-16 08:45:27.683  INFO 875 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 08:45:27.684  WARN 875 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 08:45:27.926  INFO 875 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 08:45:27.963  INFO 875 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 08:45:28.003  INFO 875 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 08:45:28.004  INFO 875 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 08:45:28.085  INFO 875 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 08:45:28.200  INFO 875 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 08:45:28.866  INFO 875 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 08:45:28.926  INFO 875 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 08:45:29.233  INFO 875 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 08:45:30.096  INFO 875 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 08:45:30.143  WARN 875 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 08:45:30.274  INFO 875 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 08:45:30.481  INFO 875 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 08:45:30.485  INFO 875 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.9 seconds (JVM running for 5.57)
+2020-06-16 08:45:39.525  INFO 875 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 08:45:39.525  INFO 875 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 08:45:39.537  INFO 875 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-16 08:45:39.570  INFO 875 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 08:45:39.657  WARN 875 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 08:45:39.668  WARN 875 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 08:45:39.675  INFO 875 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 09:29:25.425  INFO 875 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 09:29:25.426  INFO 875 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 09:29:25.429  INFO 875 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 09:29:25.435  INFO 875 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 11:39:34.952  INFO 2422 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 2422 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 11:39:34.954  INFO 2422 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 11:39:34.994  INFO 2422 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 11:39:34.994  INFO 2422 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 11:39:35.785  INFO 2422 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 11:39:35.903  INFO 2422 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 4 repository interfaces.
+2020-06-16 11:39:36.321  INFO 2422 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a144c73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 11:39:36.833  INFO 2422 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 11:39:36.861  INFO 2422 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 11:39:36.861  INFO 2422 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 11:39:37.010  INFO 2422 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 11:39:37.010  INFO 2422 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2016 ms
+2020-06-16 11:39:37.219  INFO 2422 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 11:39:37.220  WARN 2422 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 11:39:37.604  INFO 2422 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 11:39:37.668  INFO 2422 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 11:39:37.750  INFO 2422 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 11:39:37.751  INFO 2422 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 11:39:37.886  INFO 2422 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 11:39:38.023  INFO 2422 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 11:39:39.022  INFO 2422 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 11:39:39.085  INFO 2422 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 11:39:39.450  INFO 2422 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 11:39:40.280  INFO 2422 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 11:39:40.340  WARN 2422 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 11:39:40.490  INFO 2422 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 11:39:40.710  INFO 2422 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 11:39:40.714  INFO 2422 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 6.297 seconds (JVM running for 7.284)
+2020-06-16 11:39:52.386  INFO 2422 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 11:39:52.386  INFO 2422 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 11:39:52.398  INFO 2422 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-16 11:41:25.499  INFO 2422 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 11:41:25.500  INFO 2422 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 11:41:25.505  INFO 2422 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 11:41:25.513  INFO 2422 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 11:41:28.642  INFO 2467 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 2467 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 11:41:28.644  INFO 2467 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 11:41:28.709  INFO 2467 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 11:41:28.709  INFO 2467 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 11:41:29.275  INFO 2467 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 11:41:29.348  INFO 2467 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 4 repository interfaces.
+2020-06-16 11:41:29.624  INFO 2467 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1abe64d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 11:41:30.056  INFO 2467 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 11:41:30.074  INFO 2467 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 11:41:30.075  INFO 2467 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 11:41:30.191  INFO 2467 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 11:41:30.191  INFO 2467 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1482 ms
+2020-06-16 11:41:30.344  INFO 2467 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 11:41:30.344  WARN 2467 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 11:41:30.581  INFO 2467 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 11:41:30.619  INFO 2467 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 11:41:30.658  INFO 2467 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 11:41:30.659  INFO 2467 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 11:41:30.744  INFO 2467 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 11:41:30.865  INFO 2467 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 11:41:31.542  INFO 2467 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 11:41:31.595  INFO 2467 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 11:41:31.881  INFO 2467 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 11:41:32.623  INFO 2467 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 11:41:32.666  WARN 2467 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 11:41:32.790  INFO 2467 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 11:41:32.999  INFO 2467 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 11:41:33.003  INFO 2467 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.698 seconds (JVM running for 5.315)
+2020-06-16 11:41:42.724  INFO 2467 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 11:41:42.725  INFO 2467 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 11:41:42.735  INFO 2467 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-06-16 12:46:21.175  INFO 2467 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 12:46:21.177  INFO 2467 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 12:46:21.181  INFO 2467 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 12:46:21.192  INFO 2467 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 12:46:26.220  INFO 3737 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 3737 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 12:46:26.222  INFO 3737 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 12:46:26.299  INFO 3737 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 12:46:26.299  INFO 3737 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 12:46:26.920  INFO 3737 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 12:46:27.008  INFO 3737 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2020-06-16 12:46:27.350  INFO 3737 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8bbf656] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 12:46:27.842  INFO 3737 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 12:46:27.863  INFO 3737 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 12:46:27.863  INFO 3737 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 12:46:27.992  INFO 3737 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 12:46:27.992  INFO 3737 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1693 ms
+2020-06-16 12:46:28.168  INFO 3737 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 12:46:28.169  WARN 3737 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 12:46:28.456  INFO 3737 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 12:46:28.503  INFO 3737 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 12:46:28.553  INFO 3737 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 12:46:28.554  INFO 3737 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 12:46:28.659  INFO 3737 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 12:46:28.796  INFO 3737 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 12:46:29.606  INFO 3737 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 12:46:29.673  INFO 3737 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 12:46:30.033  INFO 3737 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 12:46:30.414  WARN 3737 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+2020-06-16 12:46:30.415  INFO 3737 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 12:46:30.418  INFO 3737 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 12:46:30.422  INFO 3737 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 12:46:30.424  INFO 3737 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-06-16 12:46:30.450  INFO 3737 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-16 12:46:30.459 ERROR 3737 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.zmm.BlogApplication.main(BlogApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 22 common frames omitted
+
+2020-06-16 12:47:41.544  INFO 3763 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 3763 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 12:47:41.547  INFO 3763 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 12:47:41.632  INFO 3763 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 12:47:41.632  INFO 3763 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 12:47:42.287  INFO 3763 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 12:47:42.375  INFO 3763 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2020-06-16 12:47:42.711  INFO 3763 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d549b347] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 12:47:43.209  INFO 3763 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 12:47:43.230  INFO 3763 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 12:47:43.231  INFO 3763 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 12:47:43.358  INFO 3763 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 12:47:43.359  INFO 3763 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1727 ms
+2020-06-16 12:47:43.535  INFO 3763 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 12:47:43.536  WARN 3763 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 12:47:43.825  INFO 3763 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 12:47:43.874  INFO 3763 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 12:47:43.923  INFO 3763 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 12:47:43.924  INFO 3763 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 12:47:44.030  INFO 3763 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 12:47:44.185  INFO 3763 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 12:47:44.962  INFO 3763 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 12:47:45.028  INFO 3763 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 12:47:45.394  INFO 3763 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 12:47:45.740  WARN 3763 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+2020-06-16 12:47:45.741  INFO 3763 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 12:47:45.744  INFO 3763 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 12:47:45.748  INFO 3763 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 12:47:45.750  INFO 3763 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-06-16 12:47:45.760  INFO 3763 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-16 12:47:45.769 ERROR 3763 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.zmm.BlogApplication.main(BlogApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 22 common frames omitted
+
+2020-06-16 13:05:29.915  INFO 4157 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 4157 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 13:05:29.917  INFO 4157 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 13:05:29.986  INFO 4157 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 13:05:29.986  INFO 4157 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 13:05:30.624  INFO 4157 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 13:05:30.721  INFO 4157 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88ms. Found 5 repository interfaces.
+2020-06-16 13:05:31.063  INFO 4157 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd581124] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 13:05:31.548  INFO 4157 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 13:05:31.571  INFO 4157 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 13:05:31.572  INFO 4157 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 13:05:31.699  INFO 4157 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 13:05:31.700  INFO 4157 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1714 ms
+2020-06-16 13:05:31.876  INFO 4157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 13:05:31.877  WARN 4157 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 13:05:32.161  INFO 4157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 13:05:32.208  INFO 4157 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 13:05:32.257  INFO 4157 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 13:05:32.258  INFO 4157 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 13:05:32.367  INFO 4157 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 13:05:32.508  INFO 4157 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 13:05:33.309  INFO 4157 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:05:33.375  INFO 4157 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 13:05:33.717  INFO 4157 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 13:05:34.075  WARN 4157 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+2020-06-16 13:05:34.076  INFO 4157 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:05:34.080  INFO 4157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 13:05:34.084  INFO 4157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 13:05:34.086  INFO 4157 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-06-16 13:05:34.097  INFO 4157 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-16 13:05:34.106 ERROR 4157 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.zmm.BlogApplication.main(BlogApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'comment.avatar' in value "${comment.avatar}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 22 common frames omitted
+
+2020-06-16 13:09:34.135  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 4236 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 13:09:34.137  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 13:09:34.207  INFO 4236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 13:09:34.207  INFO 4236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 13:09:34.808  INFO 4236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 13:09:34.896  INFO 4236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2020-06-16 13:09:35.238  INFO 4236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a148a30b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 13:09:35.721  INFO 4236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 13:09:35.741  INFO 4236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 13:09:35.742  INFO 4236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 13:09:35.872  INFO 4236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 13:09:35.872  INFO 4236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1665 ms
+2020-06-16 13:09:36.047  INFO 4236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 13:09:36.048  WARN 4236 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 13:09:36.331  INFO 4236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 13:09:36.380  INFO 4236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 13:09:36.428  INFO 4236 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 13:09:36.429  INFO 4236 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 13:09:36.539  INFO 4236 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 13:09:36.678  INFO 4236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 13:09:37.475  INFO 4236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:09:37.543  INFO 4236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 13:09:37.902  INFO 4236 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 13:09:38.782  INFO 4236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 13:09:38.834  WARN 4236 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 13:09:38.993  INFO 4236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 13:09:39.246  INFO 4236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 13:09:39.250  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.622 seconds (JVM running for 6.423)
+2020-06-16 13:13:43.276  INFO 4236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 13:13:43.276  INFO 4236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 13:13:43.288  INFO 4236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-16 13:13:43.322  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 13:13:43.415  WARN 4236 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 13:13:43.428  WARN 4236 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 13:13:43.436  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 13:13:45.333  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:13:45.400  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:13:46.004  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:13:46.030  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:14:10.634  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.post', args=[Comment{id=null, nickname='马化腾', email='mahuateng@qq.com', content='测试1', avatar='null', createTime=null, blog=Blog{id=12, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@7db62e2c]}
+2020-06-16 13:14:10.673  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : redirect:/comments/12
+2020-06-16 13:14:10.689  INFO 4236 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:14:10.695  INFO 4236 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:14:58.515  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.post', args=[Comment{id=null, nickname='马云', email='mayun@alibaba.com', content='马化腾你好，我是马云', avatar='null', createTime=null, blog=Blog{id=12, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=13, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@7db62e2c]}
+2020-06-16 13:14:58.526  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : redirect:/comments/12
+2020-06-16 13:14:58.530  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:14:58.538  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:15:03.660  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:15:03.666  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:15:04.214  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:15:04.226  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:16:39.904  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:16:39.909  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:16:41.704  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:16:41.713  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:34:33.728  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.post', args=[Comment{id=null, nickname='sd', email='610350772@qq.com', content='cececeece', avatar='null', createTime=null, blog=Blog{id=12, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@1e66572]}
+2020-06-16 13:34:33.736  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : redirect:/comments/12
+2020-06-16 13:34:33.751  INFO 4236 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12;jsessionid=E3D874B92978F7EEC9B18516FD804DF3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:34:33.763  INFO 4236 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:39:35.173  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:39:35.180  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:39:35.757  INFO 4236 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:39:35.767  INFO 4236 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:39:43.951  INFO 4236 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.post', args=[Comment{id=null, nickname='郑明明', email='610350772@qq.com', content='heheh', avatar='null', createTime=null, blog=Blog{id=12, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@1e66572]}
+2020-06-16 13:39:43.960  INFO 4236 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : redirect:/comments/12
+2020-06-16 13:39:43.965  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:39:43.977  INFO 4236 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:41:22.011  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:41:22.016  INFO 4236 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:41:22.532  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:41:22.544  INFO 4236 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:41:50.194  INFO 4236 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 13:41:50.196  INFO 4236 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:41:50.200  INFO 4236 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 13:41:50.206  INFO 4236 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 13:41:50.708  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 4236 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 13:41:50.708  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 13:41:50.914  INFO 4236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 13:41:50.945  INFO 4236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 5 repository interfaces.
+2020-06-16 13:41:51.018  INFO 4236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a148a30b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 13:41:51.139  INFO 4236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 13:41:51.140  INFO 4236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 13:41:51.140  INFO 4236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 13:41:51.149  INFO 4236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 13:41:51.149  INFO 4236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 438 ms
+2020-06-16 13:41:51.228  INFO 4236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-16 13:41:51.228  WARN 4236 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 13:41:51.241  INFO 4236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-16 13:41:51.251  INFO 4236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 13:41:51.275  INFO 4236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 13:41:51.491  INFO 4236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:41:51.534  INFO 4236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 13:41:51.661  INFO 4236 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 13:41:52.070  INFO 4236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 13:41:52.090  WARN 4236 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 13:41:52.179  INFO 4236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 13:41:52.332  INFO 4236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 13:41:52.332  INFO 4236 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 1.877 seconds (JVM running for 1939.473)
+2020-06-16 13:41:52.334  INFO 4236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-16 13:41:59.431  INFO 4236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 13:41:59.432  INFO 4236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 13:41:59.441  INFO 4236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-06-16 13:41:59.444  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:41:59.469  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:41:59.999  INFO 4236 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:42:00.021  INFO 4236 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:42:03.278  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:42:03.284  INFO 4236 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:42:03.764  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:42:03.775  INFO 4236 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:42:07.839  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:42:07.843  INFO 4236 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:42:08.291  INFO 4236 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:42:08.301  INFO 4236 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:42:58.900  INFO 4236 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 13:42:58.901  INFO 4236 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:42:58.901  INFO 4236 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-16 13:42:58.908  INFO 4236 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-16 13:43:00.973  INFO 4923 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 4923 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 13:43:00.977  INFO 4923 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 13:43:01.085  INFO 4923 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 13:43:01.086  INFO 4923 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 13:43:01.747  INFO 4923 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 13:43:01.834  INFO 4923 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2020-06-16 13:43:02.183  INFO 4923 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17ef996f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 13:43:02.672  INFO 4923 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 13:43:02.694  INFO 4923 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 13:43:02.694  INFO 4923 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 13:43:02.820  INFO 4923 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 13:43:02.821  INFO 4923 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1735 ms
+2020-06-16 13:43:03.002  INFO 4923 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 13:43:03.003  WARN 4923 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 13:43:03.293  INFO 4923 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 13:43:03.340  INFO 4923 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 13:43:03.392  INFO 4923 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 13:43:03.393  INFO 4923 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 13:43:03.503  INFO 4923 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 13:43:03.641  INFO 4923 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 13:43:04.442  INFO 4923 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 13:43:04.512  INFO 4923 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 13:43:04.876  INFO 4923 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 13:43:05.766  INFO 4923 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 13:43:05.819  WARN 4923 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 13:43:05.973  INFO 4923 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 13:43:06.216  INFO 4923 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 13:43:06.221  INFO 4923 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.707 seconds (JVM running for 6.362)
+2020-06-16 13:43:14.332  INFO 4923 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 13:43:14.332  INFO 4923 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 13:43:14.346  INFO 4923 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-16 13:43:14.385  INFO 4923 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:43:14.490  INFO 4923 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:43:15.360  INFO 4923 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:43:15.416  INFO 4923 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 13:43:20.415  INFO 4923 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 13:43:20.422  INFO 4923 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 13:43:20.909  INFO 4923 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 13:43:20.922  INFO 4923 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 14:25:44.704  INFO 4923 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:25:44.705  INFO 4923 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:25:44.712  INFO 4923 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 14:25:44.722  INFO 4923 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 14:25:46.689  INFO 5764 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 5764 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 14:25:46.691  INFO 5764 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 14:25:46.754  INFO 5764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 14:25:46.754  INFO 5764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 14:25:47.251  INFO 5764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 14:25:47.329  INFO 5764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 5 repository interfaces.
+2020-06-16 14:25:47.608  INFO 5764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9efd49a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 14:25:48.007  INFO 5764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 14:25:48.025  INFO 5764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 14:25:48.025  INFO 5764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 14:25:48.143  INFO 5764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 14:25:48.144  INFO 5764 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1390 ms
+2020-06-16 14:25:48.294  INFO 5764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 14:25:48.295  WARN 5764 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 14:25:48.541  INFO 5764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 14:25:48.581  INFO 5764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 14:25:48.620  INFO 5764 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 14:25:48.621  INFO 5764 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 14:25:48.703  INFO 5764 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 14:25:48.816  INFO 5764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 14:25:49.503  INFO 5764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:25:49.557  INFO 5764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 14:25:49.832  INFO 5764 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 14:25:50.611  INFO 5764 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:25:50.653  WARN 5764 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 14:25:50.773  INFO 5764 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 14:25:50.978  INFO 5764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 14:25:50.982  INFO 5764 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.696 seconds (JVM running for 5.449)
+2020-06-16 14:26:05.620  INFO 5764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 14:26:05.620  INFO 5764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 14:26:05.633  INFO 5764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-16 14:26:05.662  INFO 5764 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 14:26:05.745  INFO 5764 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 14:26:06.526  INFO 5764 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 14:26:06.572  INFO 5764 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 14:26:41.630  INFO 5764 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:26:41.632  INFO 5764 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:26:41.635  INFO 5764 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 14:26:41.639  INFO 5764 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 14:26:43.367  INFO 5789 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 5789 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 14:26:43.369  INFO 5789 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 14:26:43.436  INFO 5789 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 14:26:43.436  INFO 5789 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 14:26:43.933  INFO 5789 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 14:26:44.011  INFO 5789 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 repository interfaces.
+2020-06-16 14:26:44.305  INFO 5789 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7847e587] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 14:26:44.717  INFO 5789 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 14:26:44.734  INFO 5789 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 14:26:44.735  INFO 5789 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 14:26:44.842  INFO 5789 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 14:26:44.842  INFO 5789 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1406 ms
+2020-06-16 14:26:44.992  INFO 5789 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 14:26:44.993  WARN 5789 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 14:26:45.251  INFO 5789 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 14:26:45.293  INFO 5789 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 14:26:45.336  INFO 5789 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 14:26:45.337  INFO 5789 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 14:26:45.429  INFO 5789 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 14:26:45.544  INFO 5789 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 14:26:46.227  INFO 5789 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:26:46.287  INFO 5789 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 14:26:46.578  INFO 5789 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 14:26:47.318  INFO 5789 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:26:47.363  WARN 5789 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 14:26:47.489  INFO 5789 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 14:26:47.683  INFO 5789 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 14:26:47.687  INFO 5789 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.695 seconds (JVM running for 5.208)
+2020-06-16 14:26:57.563  INFO 5789 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 14:26:57.563  INFO 5789 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 14:26:57.576  INFO 5789 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-16 14:26:57.606  INFO 5789 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 14:26:57.688  INFO 5789 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 14:26:58.433  INFO 5789 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 14:26:58.478  INFO 5789 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 14:27:03.918  INFO 5789 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 14:27:03.924  INFO 5789 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 14:27:04.340  INFO 5789 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 14:27:04.350  INFO 5789 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 14:27:37.701  INFO 5789 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:27:37.702  INFO 5789 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:27:37.705  INFO 5789 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 14:27:37.709  INFO 5789 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 14:27:39.421  INFO 5810 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 5810 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 14:27:39.423  INFO 5810 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 14:27:39.485  INFO 5810 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 14:27:39.485  INFO 5810 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 14:27:39.980  INFO 5810 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 14:27:40.058  INFO 5810 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 repository interfaces.
+2020-06-16 14:27:40.360  INFO 5810 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90f866b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 14:27:40.770  INFO 5810 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 14:27:40.787  INFO 5810 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 14:27:40.787  INFO 5810 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 14:27:40.896  INFO 5810 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 14:27:40.896  INFO 5810 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2020-06-16 14:27:41.048  INFO 5810 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 14:27:41.049  WARN 5810 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 14:27:41.307  INFO 5810 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 14:27:41.348  INFO 5810 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 14:27:41.391  INFO 5810 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 14:27:41.392  INFO 5810 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 14:27:41.481  INFO 5810 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 14:27:41.596  INFO 5810 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 14:27:42.272  INFO 5810 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 14:27:42.332  INFO 5810 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 14:27:42.614  INFO 5810 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 14:27:43.382  INFO 5810 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 14:27:43.424  WARN 5810 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 14:27:43.549  INFO 5810 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 14:27:43.753  INFO 5810 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 14:27:43.756  INFO 5810 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.703 seconds (JVM running for 5.226)
+2020-06-16 14:45:53.833  INFO 5810 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 14:45:53.833  INFO 5810 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 14:45:53.844  INFO 5810 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-16 14:45:53.875  INFO 5810 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 14:45:53.964  INFO 5810 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 14:45:54.733  INFO 5810 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 14:45:54.778  INFO 5810 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 15:40:08.430  INFO 5810 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 15:40:08.437  INFO 5810 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 15:40:09.026  INFO 5810 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 15:40:09.041  INFO 5810 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 15:43:30.399  INFO 5810 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 15:43:30.400  INFO 5810 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 15:43:30.404  INFO 5810 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 15:43:30.411  INFO 5810 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 15:43:33.849  INFO 7299 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 7299 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 15:43:33.851  INFO 7299 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 15:43:33.948  INFO 7299 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 15:43:33.948  INFO 7299 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 15:43:34.648  INFO 7299 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 15:43:34.732  INFO 7299 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2020-06-16 15:43:35.084  INFO 7299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9fbd9b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 15:43:35.608  INFO 7299 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 15:43:35.639  INFO 7299 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 15:43:35.640  INFO 7299 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 15:43:35.791  INFO 7299 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 15:43:35.791  INFO 7299 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1842 ms
+2020-06-16 15:43:35.972  INFO 7299 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 15:43:35.973  WARN 7299 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 15:43:36.256  INFO 7299 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 15:43:36.304  INFO 7299 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 15:43:36.353  INFO 7299 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 15:43:36.354  INFO 7299 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 15:43:36.465  INFO 7299 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 15:43:36.608  INFO 7299 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 15:43:37.432  INFO 7299 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 15:43:37.515  INFO 7299 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 15:43:37.906  INFO 7299 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 15:43:38.808  INFO 7299 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 15:43:38.863  WARN 7299 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 15:43:39.025  INFO 7299 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 15:43:39.278  INFO 7299 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 15:43:39.283  INFO 7299 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 6.06 seconds (JVM running for 6.924)
+2020-06-16 15:43:43.049  INFO 7299 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 15:43:43.050  INFO 7299 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 15:43:43.064  INFO 7299 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-16 15:43:43.101  INFO 7299 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 15:43:43.231  INFO 7299 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 15:43:44.126  INFO 7299 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 15:43:44.171  INFO 7299 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 15:43:47.995  INFO 7299 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 15:43:48.005  INFO 7299 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 15:43:48.555  INFO 7299 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 15:43:48.566  INFO 7299 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 15:43:55.935  INFO 7299 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 15:43:55.946  INFO 7299 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 15:43:56.499  INFO 7299 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 15:43:56.513  INFO 7299 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 15:46:54.827  INFO 7299 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 15:46:54.853  WARN 7299 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 15:46:54.864  WARN 7299 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 15:46:54.870  INFO 7299 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 16:08:42.459  INFO 7299 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 16:08:42.460  INFO 7299 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 16:08:42.467  INFO 7299 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 16:08:42.471  INFO 7299 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 16:08:46.419  INFO 7794 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 7794 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 16:08:46.422  INFO 7794 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 16:08:46.495  INFO 7794 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 16:08:46.496  INFO 7794 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 16:08:47.161  INFO 7794 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 16:08:47.258  INFO 7794 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88ms. Found 5 repository interfaces.
+2020-06-16 16:08:47.603  INFO 7794 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99a467c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 16:08:48.087  INFO 7794 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 16:08:48.108  INFO 7794 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 16:08:48.109  INFO 7794 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 16:08:48.235  INFO 7794 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 16:08:48.236  INFO 7794 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1740 ms
+2020-06-16 16:08:48.412  INFO 7794 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 16:08:48.413  WARN 7794 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 16:08:48.700  INFO 7794 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 16:08:48.748  INFO 7794 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 16:08:48.797  INFO 7794 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 16:08:48.798  INFO 7794 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 16:08:48.910  INFO 7794 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:08:49.050  INFO 7794 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 16:08:49.850  INFO 7794 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 16:08:49.917  INFO 7794 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 16:08:50.262  INFO 7794 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 16:08:51.224  INFO 7794 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 16:08:51.276  WARN 7794 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 16:08:51.433  INFO 7794 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 16:08:51.675  INFO 7794 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 16:08:51.679  INFO 7794 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.89 seconds (JVM running for 6.842)
+2020-06-16 16:08:56.398  INFO 7794 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 16:08:56.398  INFO 7794 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 16:08:56.412  INFO 7794 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-16 16:08:56.446  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 16:08:56.537  WARN 7794 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 16:08:56.550  WARN 7794 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 16:08:56.557  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 16:08:58.617  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:08:58.636  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:09:01.619  INFO 7794 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 16:09:01.630  INFO 7794 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:09:03.786  INFO 7794 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:09:03.816  INFO 7794 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:09:06.291  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 16:09:06.304  INFO 7794 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:09:07.630  INFO 7794 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-06-16 16:09:07.645  INFO 7794 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:09:11.509  INFO 7794 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.AboutShowController.about', args=[]}
+2020-06-16 16:09:11.512  INFO 7794 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : about
+2020-06-16 16:12:57.462  INFO 7794 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 16:12:57.463  INFO 7794 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 16:12:57.468  INFO 7794 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 16:12:57.475  INFO 7794 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 16:12:59.619  INFO 7898 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 7898 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 16:12:59.621  INFO 7898 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 16:12:59.697  INFO 7898 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 16:12:59.697  INFO 7898 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 16:13:00.333  INFO 7898 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 16:13:00.421  INFO 7898 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2020-06-16 16:13:00.811  INFO 7898 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef91cca9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 16:13:01.328  INFO 7898 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 16:13:01.351  INFO 7898 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 16:13:01.351  INFO 7898 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 16:13:01.481  INFO 7898 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 16:13:01.481  INFO 7898 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1784 ms
+2020-06-16 16:13:01.658  INFO 7898 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 16:13:01.659  WARN 7898 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 16:13:01.954  INFO 7898 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 16:13:02.004  INFO 7898 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 16:13:02.057  INFO 7898 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 16:13:02.059  INFO 7898 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 16:13:02.173  INFO 7898 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:13:02.311  INFO 7898 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 16:13:03.126  INFO 7898 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 16:13:03.194  INFO 7898 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 16:13:03.538  INFO 7898 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 16:13:04.468  INFO 7898 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 16:13:04.521  WARN 7898 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 16:13:04.674  INFO 7898 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 16:13:04.920  INFO 7898 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 16:13:04.924  INFO 7898 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.791 seconds (JVM running for 6.567)
+2020-06-16 16:13:19.007  INFO 7898 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 16:13:19.007  INFO 7898 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 16:13:19.022  INFO 7898 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-06-16 16:13:19.057  INFO 7898 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 16:13:19.149  WARN 7898 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 16:13:19.161  WARN 7898 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 16:13:19.169  INFO 7898 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 16:13:24.446  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:13:24.464  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:13:26.788  INFO 7898 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 16:13:26.800  INFO 7898 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:13:27.987  INFO 7898 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-06-16 16:13:27.995  INFO 7898 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:13:29.540  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:13:29.568  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:13:31.144  INFO 7898 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 16:13:31.159  INFO 7898 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:13:42.528  INFO 7898 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.AboutShowController.about', args=[]}
+2020-06-16 16:13:42.530  INFO 7898 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Result : about
+2020-06-16 16:30:03.642  INFO 7898 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:30:03.655  INFO 7898 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:35:01.083  INFO 7898 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 16:35:01.097  INFO 7898 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 16:35:16.203  INFO 7898 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:35:16.211  INFO 7898 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 16:35:19.434  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:35:19.444  INFO 7898 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 16:35:25.288  INFO 7898 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 16:35:25.296  INFO 7898 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 17:33:57.968  INFO 7898 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 17:33:57.969  INFO 7898 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 17:33:57.973  INFO 7898 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 17:33:57.982  INFO 7898 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 17:34:01.052  INFO 9542 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 9542 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 17:34:01.055  INFO 9542 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 17:34:01.132  INFO 9542 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 17:34:01.132  INFO 9542 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 17:34:01.768  INFO 9542 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 17:34:01.867  INFO 9542 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 5 repository interfaces.
+2020-06-16 17:34:02.252  INFO 9542 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd60a1e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 17:34:02.739  INFO 9542 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 17:34:02.760  INFO 9542 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 17:34:02.760  INFO 9542 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 17:34:02.888  INFO 9542 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 17:34:02.888  INFO 9542 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1755 ms
+2020-06-16 17:34:03.066  INFO 9542 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 17:34:03.067  WARN 9542 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 17:34:03.351  INFO 9542 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 17:34:03.401  INFO 9542 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 17:34:03.450  INFO 9542 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 17:34:03.451  INFO 9542 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 17:34:03.560  INFO 9542 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 17:34:03.701  INFO 9542 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 17:34:04.490  INFO 9542 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 17:34:04.558  INFO 9542 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 17:34:04.904  INFO 9542 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 17:34:05.804  INFO 9542 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 17:34:05.857  WARN 9542 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 17:34:06.013  INFO 9542 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 17:34:06.262  INFO 9542 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 17:34:06.267  INFO 9542 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.706 seconds (JVM running for 6.415)
+2020-06-16 17:34:15.149  INFO 9542 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 17:34:15.149  INFO 9542 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 17:34:15.163  INFO 9542 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-16 17:34:15.198  INFO 9542 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 17:34:15.292  WARN 9542 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 17:34:15.305  WARN 9542 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 17:34:15.312  INFO 9542 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 17:34:18.513  INFO 9542 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.ArchiveShowController.archives', args=[{}]}
+2020-06-16 17:34:18.542  INFO 9542 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : archives
+2020-06-16 17:34:28.045  INFO 9542 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.AboutShowController.about', args=[]}
+2020-06-16 17:34:28.048  INFO 9542 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : about
+2020-06-16 18:09:46.115  INFO 9542 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 18:09:46.116  INFO 9542 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 18:09:46.121  INFO 9542 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 18:09:46.129  INFO 9542 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 18:14:10.914  INFO 10346 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 10346 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 18:14:10.916  INFO 10346 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 18:14:10.978  INFO 10346 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 18:14:10.979  INFO 10346 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 18:14:11.482  INFO 10346 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 18:14:11.560  INFO 10346 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 5 repository interfaces.
+2020-06-16 18:14:11.838  INFO 10346 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ec2e999] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 18:14:12.251  INFO 10346 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 18:14:12.270  INFO 10346 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 18:14:12.270  INFO 10346 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 18:14:12.389  INFO 10346 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 18:14:12.390  INFO 10346 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2020-06-16 18:14:12.540  INFO 10346 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 18:14:12.541  WARN 10346 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 18:14:12.786  INFO 10346 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 18:14:12.825  INFO 10346 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 18:14:12.866  INFO 10346 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 18:14:12.867  INFO 10346 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 18:14:12.953  INFO 10346 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 18:14:13.069  INFO 10346 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 18:14:13.761  INFO 10346 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 18:14:13.816  INFO 10346 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 18:14:14.096  INFO 10346 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 18:14:14.899  INFO 10346 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 18:14:14.942  WARN 10346 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 18:14:15.067  INFO 10346 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 18:14:15.280  INFO 10346 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 18:14:15.284  INFO 10346 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 4.828 seconds (JVM running for 5.541)
+2020-06-16 18:14:29.453  INFO 10346 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 18:14:29.454  INFO 10346 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 18:14:29.468  INFO 10346 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-16 18:14:29.497  INFO 10346 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 18:14:29.578  WARN 10346 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 18:14:29.589  WARN 10346 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 18:14:29.596  INFO 10346 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 18:14:30.254  INFO 10346 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 18:14:30.261  INFO 10346 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:30:38.425  INFO 10346 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:30:38.426  INFO 10346 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:30:38.432  INFO 10346 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 19:30:38.440  INFO 10346 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 19:30:41.474  INFO 11843 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 11843 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 19:30:41.477  INFO 11843 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 19:30:41.553  INFO 11843 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 19:30:41.554  INFO 11843 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 19:30:42.200  INFO 11843 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 19:30:42.301  INFO 11843 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 5 repository interfaces.
+2020-06-16 19:30:42.660  INFO 11843 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$332b36a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 19:30:43.167  INFO 11843 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 19:30:43.189  INFO 11843 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 19:30:43.189  INFO 11843 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 19:30:43.325  INFO 11843 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 19:30:43.325  INFO 11843 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1771 ms
+2020-06-16 19:30:43.512  INFO 11843 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 19:30:43.513  WARN 11843 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 19:30:43.814  INFO 11843 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 19:30:43.865  INFO 11843 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 19:30:43.916  INFO 11843 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 19:30:43.917  INFO 11843 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 19:30:44.026  INFO 11843 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 19:30:44.172  INFO 11843 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 19:30:45.003  INFO 11843 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:30:45.072  INFO 11843 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 19:30:45.445  INFO 11843 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 19:30:46.785  INFO 11843 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:30:46.852  WARN 11843 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 19:30:47.010  INFO 11843 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 19:30:47.278  INFO 11843 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 19:30:47.283  INFO 11843 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 6.289 seconds (JVM running for 7.051)
+2020-06-16 19:30:55.941  INFO 11843 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 19:30:55.941  INFO 11843 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 19:30:55.955  INFO 11843 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-16 19:30:55.986  INFO 11843 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:30:56.080  WARN 11843 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:30:56.093  WARN 11843 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:30:56.101  INFO 11843 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:30:56.908  INFO 11843 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:30:56.916  INFO 11843 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:31:05.725  INFO 11843 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:31:05.741  INFO 11843 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:31:06.135  INFO 11843 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:31:06.142  INFO 11843 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:32:27.125  INFO 11843 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:32:27.141  INFO 11843 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:32:27.539  INFO 11843 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:32:27.547  INFO 11843 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:32:34.319  INFO 11843 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:32:34.320  INFO 11843 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:32:34.325  INFO 11843 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 19:32:34.330  INFO 11843 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 19:32:36.415  INFO 11884 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 11884 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 19:32:36.419  INFO 11884 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 19:32:36.514  INFO 11884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 19:32:36.515  INFO 11884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 19:32:37.156  INFO 11884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 19:32:37.250  INFO 11884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 5 repository interfaces.
+2020-06-16 19:32:37.619  INFO 11884 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7c6ebc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 19:32:38.137  INFO 11884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 19:32:38.160  INFO 11884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 19:32:38.161  INFO 11884 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 19:32:38.295  INFO 11884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 19:32:38.295  INFO 11884 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1780 ms
+2020-06-16 19:32:38.481  INFO 11884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 19:32:38.482  WARN 11884 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 19:32:38.795  INFO 11884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 19:32:38.848  INFO 11884 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 19:32:38.903  INFO 11884 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 19:32:38.905  INFO 11884 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 19:32:39.022  INFO 11884 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 19:32:39.169  INFO 11884 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 19:32:39.975  INFO 11884 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:32:40.043  INFO 11884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 19:32:40.397  INFO 11884 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 19:32:41.336  INFO 11884 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:32:41.394  WARN 11884 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 19:32:41.563  INFO 11884 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 19:32:41.825  INFO 11884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 19:32:41.830  INFO 11884 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.896 seconds (JVM running for 6.567)
+2020-06-16 19:32:45.019  INFO 11884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 19:32:45.019  INFO 11884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 19:32:45.034  INFO 11884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-16 19:32:45.066  INFO 11884 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:32:45.159  WARN 11884 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:32:45.171  WARN 11884 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:32:45.178  INFO 11884 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:32:45.885  INFO 11884 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:32:45.893  INFO 11884 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:33:15.085  INFO 11884 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:33:15.086  INFO 11884 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:33:15.091  INFO 11884 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 19:33:15.097  INFO 11884 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-16 19:33:17.066  INFO 11901 --- [restartedMain] com.zmm.BlogApplication                  : Starting BlogApplication on zhengmingmingdeMacBook-Pro.local with PID 11901 (/Users/zhengmingming/IdeaProjects/blog/target/classes started by zhengmingming in /Users/zhengmingming/IdeaProjects/blog)
+2020-06-16 19:33:17.068  INFO 11901 --- [restartedMain] com.zmm.BlogApplication                  : The following profiles are active: dev
+2020-06-16 19:33:17.168  INFO 11901 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-16 19:33:17.169  INFO 11901 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-16 19:33:17.839  INFO 11901 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-16 19:33:17.936  INFO 11901 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87ms. Found 5 repository interfaces.
+2020-06-16 19:33:18.289  INFO 11901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$565bc29b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-16 19:33:18.815  INFO 11901 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-16 19:33:18.838  INFO 11901 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-16 19:33:18.838  INFO 11901 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-16 19:33:18.972  INFO 11901 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-16 19:33:18.973  INFO 11901 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1803 ms
+2020-06-16 19:33:19.159  INFO 11901 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-16 19:33:19.161  WARN 11901 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-16 19:33:19.462  INFO 11901 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-16 19:33:19.512  INFO 11901 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-16 19:33:19.562  INFO 11901 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-16 19:33:19.563  INFO 11901 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-16 19:33:19.688  INFO 11901 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 19:33:19.840  INFO 11901 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-16 19:33:20.704  INFO 11901 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 19:33:20.774  INFO 11901 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-16 19:33:21.141  INFO 11901 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-16 19:33:22.070  INFO 11901 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 19:33:22.125  WARN 11901 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-16 19:33:22.293  INFO 11901 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-16 19:33:22.551  INFO 11901 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 19:33:22.556  INFO 11901 --- [restartedMain] com.zmm.BlogApplication                  : Started BlogApplication in 5.93 seconds (JVM running for 6.549)
+2020-06-16 19:33:23.230  INFO 11901 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 19:33:23.230  INFO 11901 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-16 19:33:23.246  INFO 11901 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-06-16 19:33:23.279  INFO 11901 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:33:23.386  WARN 11901 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:33:23.399  WARN 11901 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-16 19:33:23.406  INFO 11901 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:33:24.145  INFO 11901 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:33:24.153  INFO 11901 --- [http-nio-8080-exec-4] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:33:30.366  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.blog', args=[12, {}]}
+2020-06-16 19:33:30.460  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : blog
+2020-06-16 19:33:30.936  INFO 11901 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:33:30.945  INFO 11901 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:33:31.255  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.CommentController.comments', args=[12, {}]}
+2020-06-16 19:33:31.300  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : blog :: commentList
+2020-06-16 19:34:15.926  INFO 11901 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 19:34:15.942  INFO 11901 --- [http-nio-8080-exec-10] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 19:34:16.303  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:16.310  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:34:19.365  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 19:34:19.375  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 19:34:19.732  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:19.739  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:34:21.245  INFO 11901 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 19:34:21.265  INFO 11901 --- [http-nio-8080-exec-1] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 19:34:21.622  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:21.629  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:34:23.098  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.ArchiveShowController.archives', args=[{}]}
+2020-06-16 19:34:23.116  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : archives
+2020-06-16 19:34:23.460  INFO 11901 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:23.467  INFO 11901 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:34:28.725  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.AboutShowController.about', args=[]}
+2020-06-16 19:34:28.727  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : about
+2020-06-16 19:34:29.056  INFO 11901 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:29.062  INFO 11901 --- [http-nio-8080-exec-7] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:34:32.266  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-16 19:34:32.279  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : index
+2020-06-16 19:34:32.613  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:34:32.619  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:35:10.040  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 19:35:10.048  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : types
+2020-06-16 19:35:10.390  INFO 11901 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:35:10.396  INFO 11901 --- [http-nio-8080-exec-3] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:35:12.752  INFO 11901 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-16 19:35:12.763  INFO 11901 --- [http-nio-8080-exec-8] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 19:35:13.109  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:35:13.115  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:35:19.138  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/3', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-06-16 19:35:19.148  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : tags
+2020-06-16 19:35:19.504  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:35:19.511  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:58:29.263  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.ArchiveShowController.archives', args=[{}]}
+2020-06-16 19:58:29.276  INFO 11901 --- [http-nio-8080-exec-5] com.zmm.aspect.LogAspect                 : Result : archives
+2020-06-16 19:58:29.588  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:58:29.592  INFO 11901 --- [http-nio-8080-exec-6] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 19:58:30.579  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.AboutShowController.about', args=[]}
+2020-06-16 19:58:30.588  INFO 11901 --- [http-nio-8080-exec-9] com.zmm.aspect.LogAspect                 : Result : about
+2020-06-16 19:58:30.908  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zmm.web.IndexController.newblogs', args=[{}]}
+2020-06-16 19:58:30.913  INFO 11901 --- [http-nio-8080-exec-2] com.zmm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-06-16 22:00:01.354  INFO 11901 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-16 22:00:01.355  INFO 11901 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-16 22:00:01.359  INFO 11901 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-16 22:00:01.365  INFO 11901 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
